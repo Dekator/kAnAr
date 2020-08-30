@@ -1,0 +1,55 @@
+div#contenu div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div.gauche h1, p{
+	margin: 25px;
+}
+
+div#contenu div.gauche{
+	vertical-align: top;
+}
+
+div#contenu div.gauche img{
+	padding-left: 25px;
+}
+
+div#contenu div.droite{
+	
+}
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+	color: black;
+	background-color: #67DFF9;
+	text-decoration: none;
+	padding: 15px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+	background-color: #67CCF9;
+	transition: 0.5s all;
+}
+
+nav.menu-nav ul img{
+	vertical-align:middle;
+}
+footer.footer{
+	background-color: #282F2E;
+	color: white;
+
+}
+footer.footer nav.footer-nav ul li.lien{
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+header{
+	background-color: #00143D
+}
